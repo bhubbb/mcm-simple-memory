@@ -1,0 +1,9 @@
+[project]
+name = "mcp-simple-memory"
+version = "0.1.0"
+description = "Simple Memory MCP Server - Session-based in-memory storage for managing memories with create, add, remove, and search capabilities"
+requires-python = ">=3.12"
+dependencies = ["mcp>=1.9.4"]
+
+[project.scripts]
+mcp-simple-memory = "main:cli"
